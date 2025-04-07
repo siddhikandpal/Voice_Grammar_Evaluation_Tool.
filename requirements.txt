@@ -1,0 +1,19 @@
+# Grammar Analysis
+language-tool-python>=2.9.0
+
+# Audio Processing
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.14
+wave>=0.0.2
+
+# Scientific Computing
+numpy>=1.26.0
+scipy>=1.13.0
+
+# Jupyter Notebook
+ipython>=8.20.0
+jupyter-client>=8.6.0
+ipykernel>=6.29.0
+
+# Windows Compatibility
+pipwin>=0.5.0 ; sys_platform == 'win32'
